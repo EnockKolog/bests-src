@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 5px;
+    padding: 0;
+    background-color: #0d60be;
+    background-image: url(back.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background: #099e1d;
+    color: white;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-inline-end: 0cap;
+}
+
+h1, h2 {
+    color: black;
+}
+
+section {
+    backdrop-filter: blur(10px);
+    opacity: 0.91;
+    color: rgb(7, 1, 28);
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 20px;
+    padding: 20px;
+    background: rgb(124, 243, 110);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(8, 198, 14, 0.1);
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.event img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    margin: 5px;
+    padding: 10px;
+    width: 80%;
+    max-width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover {
+transform: scale(1.1) rotate(4deg);
+}
+
+#attendee-list {
+    list-style: none;
+    padding: 0;
+}
+
+#attendee-list li {
+    background: #eee;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+footer{
+    background-color: greenyellow;
+}
